@@ -1,10 +1,11 @@
 import React from "react";
-import { Text } from "react-native"
+import { Text } from "react-native";
 
-export default function Titulo(){
-    return(
-        <Text style={{ fontSize:24, fontWeight:'bold', marginBottom:10}}>
+export default function Titulo() {
+    return (
+        <Text style={{ fontSize: 24, fontWeight: 'bold', marginTop: 10 }}>
             Bem-Vindo ao React Native!
         </Text>
+
     )
 }
